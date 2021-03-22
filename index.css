@@ -1,0 +1,58 @@
+
+
+#container{
+	width:100%;
+	border:2px red dashed;
+	margin:0px auto;
+	padding:10px 25px;
+	height:100vh;
+	box-sizing: border-box;
+}
+#img2{	
+	position: relative;
+	left:-150px;
+	top:150px;
+}
+#img3{	
+	position: relative;
+	left:-300px;
+	top:300px
+}
+
+#img4{
+	position: relative;
+	left:-450px;
+	top:450px;	
+	z-index: 3;
+}
+#img5{
+	position:relative;
+	left:609px;
+	top:-185px;
+	z-index: 2;
+}
+#img6{
+	position:relative;
+	top:-336px;
+	left:460px;
+	z-index: 1;
+}
+#img7{
+	position: relative;
+	top:-485px;
+	left:300px;
+}
+#img1:hover,#img2:hover{
+	position:relative;
+	z-index:1;
+}
+#img3:hover,#img5:hover,#img6:hover,#img7:hover{
+	position: relative;
+	z-index: 4;
+}
+
+h1{
+	text-align:center;
+	font-family: cursive;
+	color:#344fa4
+}
